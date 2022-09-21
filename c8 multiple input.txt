@@ -1,0 +1,10 @@
+//tacking int and charecter simuntaniously
+#include<stdio.h>
+int main()
+{
+    int a;float b;
+    printf("enter an integer and then a decimal:");
+    scanf("%i%f",&a,&b);
+    printf("integer:%i and float:%f",a,b);
+    
+}

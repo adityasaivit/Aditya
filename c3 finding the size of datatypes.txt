@@ -1,0 +1,16 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Hello world\n");
+    int a;short b;long c; long long d;
+    long double e;
+    
+    printf("size of a int=%ibytes\n",sizeof(a));
+    printf("size of short=%ibytes\n",sizeof(b));
+    printf("size of long=%ibytes\n",sizeof(c));
+    printf("size of long long=%ibytes\n",sizeof(d));
+    printf("size of long double=%ibytes\n",sizeof(d));
+    return 0;
+}

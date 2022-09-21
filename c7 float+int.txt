@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() 
+{
+    int a;float b;
+    printf("enter int value:");
+    scanf("%d",&a);
+    printf("\n");
+    printf("enter float value:");
+    scanf("%f",&b);
+    printf("entered value was %f",b);
+    return 0;
+    
+}

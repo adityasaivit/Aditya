@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    char c;
+    printf("ENTER THE CHARECTER:");
+    scanf("%c",&c);
+    printf("the entered charecter was: %c",c);
+    return 0;
+}

@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter first integers:");
+    scanf("%d",&a);
+    printf("\n");
+    printf("enter the second integer:");
+    scanf("%d",&b);
+    printf("\n");
+    printf("%d == %d then system gives %d \n",a,b,a==b);
+printf("%d <= %d then the system gives %d \n",a,b,a<=b);
+printf("%d != %d then the system gives %d \n",a,b,a!=b);
+printf("%d < %d then the system gives %d \n",a,b,a<b);
+printf("%d > %d then the system gives %d \n",a,b,a>b);
+printf("%d >= %d then the system gives %d \n",a,b,a>=b);
+
+
+    return 0;
+}
