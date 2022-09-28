@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{ 
+    int t;int n1;int n2[2];
+    scanf("%d",&t);
+    int p[t];
+    for(int i=1;i<=t;i++)
+    {
+        for(int j=1;j<=2;j++)
+        {
+            scanf("%d",&n1);
+            n2[j-1]=n1;
+            p[i-1]=n2[0]*n2[1];
+        }
+    }
+    for(int k=1;k<=t;k++)
+    {
+        printf("%d\n",p[k-1]);
+    }
+    return 0;
+}
